@@ -1,0 +1,22 @@
+{
+  "name": "micro-fe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:trunghieu99tt/micro-fe-sample.git",
+  "author": "Rikikudo <trunghieu99tt@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "concurrently npm:start-*",
+    "start-auth": "cd packages/auth && npm run start",
+    "start-container": "cd packages/container && npm run start",
+    "start-dashboard": "cd packages/dashboard && npm run start",
+    "start-marketing": "cd packages/marketing && npm run start",
+    "install:auth": "cd packages/auth && npm install",
+    "install:container": "cd packages/container && npm install",
+    "install:dashboard": "cd packages/dashboard && npm install",
+    "install:marketing": "cd packages/marketing && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^7.5.0"
+  }
+}
