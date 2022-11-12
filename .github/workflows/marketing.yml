@@ -1,4 +1,4 @@
-AWS_DISTRIBUTION_IDname: deploy-marketing
+name: deploy-marketing
 
 on:
   push:
