@@ -12,9 +12,13 @@
     "install:auth": "cd packages/auth && npm install",
     "install:container": "cd packages/container && npm install",
     "install:dashboard": "cd packages/dashboard && npm install",
-    "install:marketing": "cd packages/marketing && npm install"
+    "install:marketing": "cd packages/marketing && npm install",
+    "format": "prettier . --write"
   },
   "dependencies": {
     "concurrently": "^7.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
   }
 }
