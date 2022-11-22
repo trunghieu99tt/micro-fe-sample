@@ -9,6 +9,7 @@
     "start:dev": "concurrently npm:start-*",
     "start-container": "cd packages/container && npm run start",
     "start-marketing": "cd packages/marketing && npm run start",
+    "start-dashboard": "cd packages/dashboard && npm run start",
     "start-auth": "cd packages/auth && npm run start",
     "install:auth": "cd packages/auth && npm install",
     "install:container": "cd packages/container && npm install",
